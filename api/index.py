@@ -104,4 +104,3 @@ def get_user_by_id(user_id):
         print(e)
         return jsonify({"error":str(e)}),500
 
-app.run(debug=True)
